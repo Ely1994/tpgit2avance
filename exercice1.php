@@ -22,34 +22,30 @@ $total1=0;
 $total=0;
 foreach ($bateaux as $nombateau => $infoequipage) {
     if($infoequipage["nbpassager"]>10)
-{ 
-
-echo $nombateau.'<br>';//nom du bateau
-echo $infoequipage["nbpassager"].'<br>'; //nombres de passagers
+        { 
+            echo $nombateau.'<br>';//nom du bateau
+        echo $infoequipage["nbpassager"].'<br>'; //nombres de passagers
+    }
 }
+foreach ($bateaux as $nombateau => $infoequipage) {
+    $total+=$infoequipage["nbequipage"];
 }
-foreach ($bateaux as $nombateau => $infoequipage) 
-{
-    
- $total+=$infoequipage["nbequipage"];
-
-
-
+foreach ($bateaux as $nombateau => $infoequipage) {
+    $total1+=$infoequipage["nbpassager"];    
 }
-foreach ($bateaux as $nombateau => $infoequipage) 
-{
-    
- $total1+=$infoequipage["nbpassager"];
-
-    
-}
-
-
-
 echo'equi'.$total;
 echo 'passa'.$total1;
 //echo $bateaux["Manureva"]["nbpassager"];
 
+// DEBUT de l'exo bonus sur les nombres aléatoires 
+$x = rand(1,100);
+$y = -1; $z = 0;
+while($y != $x) {
+    $y = rand(1,100);
+    $z++;
+}
+echo "Le nombre d'occurences nécessaire pour retomber sur ".$x." est égal à ".$z;
+// FIN de l'exo bonus sur les nombres aléatoires
 ?>
 </body>
 </html>
