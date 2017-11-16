@@ -11,12 +11,12 @@
 <p>test<p>
 <?php
 
-$bateaux=array (
+$bateaux=array ( //création d'un tableau associatif
     "Manureva" => array("nbequipage"=>6,"nbpassager"=> 11), // je suis riche donc j'agrandis ce vaisseau
     "Sirius"=> array("nbequipage"=>4,"nbpassager"=>6),
     "Surcouf"=> array("nbequipage"=>8,"nbpassager"=>15),
     "Titanic"=> array("nbequipage"=>21,"nbpassager"=>49), // je suis tres riche donc j'achète un titanic !
-    "Nautilus"=>array("nbequipage"=>5,"nbpassager"=>5)//création d'un tableau associatif
+    "Nautilus"=>array("nbequipage"=>5,"nbpassager"=>5) 
 );
 $total1=0;
 $total=0;
