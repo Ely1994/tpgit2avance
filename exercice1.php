@@ -13,7 +13,7 @@
 
 $bateaux=array ( //création d'un tableau associatif
     "Manureva" => array("nbequipage"=>6,"nbpassager"=> 11), // je suis riche donc j'agrandis ce vaisseau
-    "Sirius"=> array("nbequipage"=>4,"nbpassager"=>6),
+    "Sirius"=> array("nbequipage"=>4,"nbpassager"=>6), // Et là j'ai rien fait
     "Surcouf"=> array("nbequipage"=>8,"nbpassager"=>15),
     "Titanic"=> array("nbequipage"=>21,"nbpassager"=>49), // je suis tres riche donc j'achète un titanic !
     "Nautilus"=>array("nbequipage"=>5,"nbpassager"=>5) 
